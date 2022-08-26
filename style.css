@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #7c2be8;
+}
+div{
+    text-align: center;
+}
+i{
+    font-size: 4rem;
+}
+button{
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    border-style: none;
+    background-color: #fff;
+    color: rgb(48, 48, 48);
+}
+
+button:hover{
+    color: #7c2be8;
+    cursor: pointer;
+}
+button:active{
+    transform: scale(0.9);
+    background-color: rgb(223, 223, 223);
+    color: rgb(48, 48, 48);
+    cursor: pointer;
+}
+#watch{
+    background-color: #fff;
+    font-size: 8rem;
+    margin: 2.5rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    letter-spacing: 0.4rem;
+}
+
+#time_keeper{
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+#time_keeper span{
+    background-color: #fff;
+    color: rgb(48, 48, 48);
+    padding: 1rem 4rem;
+    letter-spacing: 0.3rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
